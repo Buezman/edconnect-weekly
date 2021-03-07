@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        project-explorer
 
     </head>
     <body>
         <header>
             <h1>Project Explorer</h1>
             <h2>One Stop Database for Academic Projects</h2>
-
         </header>
         <nav>
             <a href="index.html">Home</a>
@@ -16,51 +14,45 @@
             <a href="login.html">Login</a>
             <a href="register.html">Register</a>
             <a href="createproject.html">Submit</a>
-
         </nav>
         <main>
-            <section>
-                <h3>Project 1</h3>
+            <section><!--Project Details-->
+                <h2>Project 1</h2>
                 <ul>
-                    <li>Created by: Nwajiobi Chibueze</li>
-                    <li>Date Created: 02/03/2021</li>
-                    <li>Last Updated: 04/03/2021</li>
+                    <li>Created by: John Doe</li>
+                    <li>Date Created: 00/00/0000</li>
+                    <li>Last Updated: 01/01/0001</li>
                 </ul>
             </section>
-
-            <section>
+            <br>
+            <section><!--Edit Form-->
                 <h2>Edit Project</h2>
-                <form>
+                <form name="editProject">
                     <div>Project Name:
-                        <div><input type="text" name="name"/></div>
+                        <div><input name="name" type="text" /></div>
                     </div>
                     <br>
                     <div>Project Abstract:
-                        <div>
-                            <textarea type="text" name="abstract"></textarea>
-                        </div>
+                        <div><textarea name="abstract" type="text"></textarea>   </div>
                     </div>
                     <br>
                     <div>Authors:
-                        <div><input type="text" name="authors"/></div>
+                        <div><input name="authors" type="text" /></div>
                     </div>
                     <br>
                     <div>Tag(s):
-                        <div><input type="text" name="tags"/></div>
+                        <div><input name="tags" type="text" /></div>
                     </div>
                     <br>
                     <div>Upload File
-                        <div><input type="file" name="projectFile" /></div>
+                        <div><input name="pojectFile" type="file" /></div>
                     </div>
                     <br>
                     <div>
                         <input type="submit" />
                     </div>
                 </form>
-
             </section>
         </main>
-
     </body>
-
 </html>

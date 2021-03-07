@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        project-explorer
 
     </head>
     <body>
         <header>
             <h1>Project Explorer</h1>
             <h2>One Stop Database for Academic Projects</h2>
-
         </header>
         <nav>
             <a href="index.html">Home</a>
@@ -16,36 +14,30 @@
             <a href="login.html">Login</a>
             <a href="register.html">Register</a>
             <a href="createproject.html">Submit</a>
-
         </nav>
         <main>
-            <h1>Submit Project</h1>
-            <form>
+            <h2>Submit Project</h2>
+            <form name="submitProject">
                 <div>Project Name:
-                    <div><input type="text" name="name"/></div>
+                    <div><input name="name" type="text" /></div>
                 </div>
                 <br>
                 <div>Project Abstract:
-                    <div>
-                        <textarea type="text" name="abstract"></textarea>
-                    </div>
+                    <div><textarea name="abstract" type="text"></textarea>   </div>
                 </div>
                 <br>
                 <div>Authors:
-                    <div><input type="text" name="authors"/></div>
+                    <div><input name="authors" type="text" /></div>
                 </div>
                 <br>
                 <div>Tag(s):
-                    <div><input type="text" name="tags"/></div>
+                    <div><input name="tags" type="text" /></div>
                 </div>
                 <br>
                 <div>
                     <input type="submit" />
                 </div>
-
             </form>
         </main>
-
     </body>
-
 </html>

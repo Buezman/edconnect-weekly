@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        project-explorer
+
     </head>
-   
     <body>
         <header>
             <h1>Project Explorer</h1>
             <h2>One Stop Database for Academic Projects</h2>
         </header>
-       
         <nav>
             <a href="index.html">Home</a>
             <a href="search.html">Projects</a>
@@ -17,18 +15,17 @@
             <a href="register.html">Register</a>
             <a href="createproject.html">Submit</a>
         </nav>
-       
         <main>
-            <section>
-                <h3>Search Project By</h3>
+            <section><!--Search form-->
+                <h2>Search Project By</h2>
                 <form name="searchForm">
                     <div>
-                        <input type="text" name="searchTerm" placeholder="Project Name, Authors, Abstract, Tags" />
+                        <input name="searchTerm" type="text" placeholder="Project Name, Authors, Abstract, Tags" />
                     </div>
                     <br>
                     <div>Search By:
                         <div>
-                            <select name="searchType">
+                            <select name="searchType">Search By
                                 <option value="Name">Name</option>
                                 <option value="Abstract">Abstract</option>
                                 <option value="Authors">Authors</option>
@@ -40,26 +37,22 @@
                     <div>
                         <input type="submit" value="Search" />
                     </div>
-
-                </form>
-
+                </form>   
             </section>
-
-            <section>
+            <section><!--search results-->
                 <h2>Search Result</h2>
-                <h3>Project 1</h3>
-                <ul>
-                    <li>Name: Project 1</li>
-                    <li>Description: </li>
-                    <li>Program: Computer Science</li>
-                    <li>Authors: Nwajiobi Chibueze, Ed Connect</li>
-                    <li>Tags: #Asphyxia, #GSW</li>
-                    <li>Year: 2018</li>
-                </ul>
+                <div>
+                    <h3>Project 1</h3>
+                    <ul>
+                        <li>Name: Project 1</li>
+                        <li>Description: My first HTML project</li>
+                        <li>Program: Computer Science</li>
+                        <li>Authors: John Doe et al</li>
+                        <li>Tags: #Asphyxia, #GSW</li>
+                        <li>Year: 2018</li>
+                    </ul>
+                </div>
             </section>
-            
         </main>
-
     </body>
-
 </html>
